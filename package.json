@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "love.js build/snake.love dist/web -c --title Snake",
+    "serve": "cd dist/web && python -m http.server 8000"
+  },
+  "dependencies": {
+    "love.js": "^11.4.1"
+  }
+}
