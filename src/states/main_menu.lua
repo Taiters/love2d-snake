@@ -15,10 +15,10 @@ function main_menu:enter()
             text = text.new_text("High scores", Fonts.xlarge),
             action = function() Gamestate.switch(States["high_scores"]) end
         },
-        {
-            text = text.new_text("Quit", Fonts.xlarge),
-            action = function() love.event.quit() end
-        },
+        -- {
+        --     text = text.new_text("Quit", Fonts.xlarge),
+        --     action = function() love.event.quit() end
+        -- },
     }, 1)
 end
 

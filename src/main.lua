@@ -41,7 +41,7 @@ end
 
 function love.load()
     -- love.window.setFullscreen(true)
-    love.window.setTitle("Snake - This time it's personal")
+    love.window.setTitle("Snake")
 
     init_fonts()
     init_audio()
